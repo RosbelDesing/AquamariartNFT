@@ -102,12 +102,14 @@ main{
     font-size:40px;
     color:#fff;
     cursor:pointer;
+    border:none;
 }
 
 .header .boton-container .fa-xmark{
     font-size:40px;
     color:#fff;
     cursor:pointer;
+    border:none;
 }
 
 .close{
@@ -122,15 +124,6 @@ main{
     display:none;
 }
 
-
-.header .boton-container .fa-bars:hover{
-    color:#FFD700;
-}
-
-
-.header .boton-container .fa-xmark:hover{
-    color:#FFD700;
-}
 
 .header .boton-container{
     display:none;
@@ -158,24 +151,23 @@ main{
 }
 
 i.fa-house,i.fa-images,i.fa-dollar-sign,i.fa-blog{ 
+    margin-right:3px;
     display:none;
 }
 
-i {
+i.fa-twitter,i.fa-instagram-square,i.fa-behance,i.fa-facebook {
     font-size:25px;
     color:#fff;
     margin-right:8px;
 }
 
-i:hover {
+i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:hover {
     transition: 0.5s;
     color:#FFD700;
     transform:translateY(-3px)
 }
 
-i:active{
-    transform:scale(1.1);
-}
+
 
 
 /* @media para el header (nav-menu)*/
