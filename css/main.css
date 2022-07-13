@@ -191,7 +191,7 @@ i:active{
         display:none;
     }
 
-    .fa-house,.fa-images,.fa-dollar-sign,.fa-blog{ 
+    i.fa-house,i.fa-images,i.fa-dollar-sign,i.fa-blog{ 
         display:inline-block;
     }
 
@@ -220,7 +220,7 @@ i:active{
 }
 
 
-
+/* Secciones del contenido principal*/
 
 /* Section1 1*/
 

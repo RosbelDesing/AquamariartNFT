@@ -15,5 +15,7 @@ const menuLinks = document.querySelectorAll(".nav-menu a[href^=\"#\"]");
 menuLinks.forEach(menuLink =>{ 
     menuLink.addEventListener("click",function() {
         navMenu.classList.remove("nav-menu-visible");
+        closeBtn.classList.remove("close-visible");
+        OpenBtn.classList.remove("open-none");
     })
 });
