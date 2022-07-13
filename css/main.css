@@ -14,9 +14,10 @@ html{
     scroll-behavior: smooth;
 }
 
+
 body{
-    font-family: sans-serif;
-    background-image: url(/css/fondo.jpg);
+    font-family: 'Roboto', sans-serif;
+    background-image: url(/images/fondo-noche.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -24,7 +25,6 @@ body{
 
 main{
     padding-top:60px;
-    background-color: rgba(0, 0, 0, 0.418);
 }
 
 
@@ -36,14 +36,8 @@ main{
     justify-content: space-between;
     align-items: center;
     width:100%;
-    padding:10px;
-    background: #232526;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border-bottom-color: #fff;
-    border-bottom-style:solid;
-    border-bottom-width:3px;
-
+    padding:15px;
+    background: none;
 }
 
 .header .logo-container{
@@ -57,18 +51,10 @@ main{
     text-decoration: none;
 }
 
-.header .logo-container .logo-img{
-    width:35px;
-    border-radius:50%;
-    margin-right:8px;
-    border-color:#fff;
-    border-style:solid;
-    border-width:2px;
-}
 
 .header .logo-container .logo-img:hover{
     transition:0.5s;
-    border-color:#FFD700;
+    border-color:cyan;
 }
 
 .header .doble-color{
@@ -76,12 +62,15 @@ main{
 }
 .header .doble-color .logo-text1{
     font-size:23px;
-    color:#FFD700;
+    color:cyan;
+    font-weight: bold;
+    
 }
 
 .header .doble-color .logo-text2{
     font-size:23px;
     color:#fff;
+    font-weight: bold;
 }
 
 .header .boton-container {
@@ -103,6 +92,10 @@ main{
     color:#fff;
     cursor:pointer;
     border:none;
+}
+
+.header .boton-container .fa-bars:active{
+    color:cyan;
 }
 
 .header .boton-container .fa-xmark{
@@ -136,21 +129,21 @@ main{
     font-size:20px;
     margin-right:10px;
     padding-top:20px;
-    padding-bottom:15px;
+    padding-bottom:10px;
     padding-left:5px;
     padding-right:5px;
 }
 
 .header .nav-menu .link-menu:hover{
     transition:0.5s;
-    color:#FFD700;
-    border-bottom-color: #FFD700;
+    color:cyan;
+    border-bottom-color: cyan;
     border-bottom-width: 5px;
     border-bottom-style: solid;
   
 }
 
-i.fa-house,i.fa-images,i.fa-dollar-sign,i.fa-blog{ 
+i.fa-house,i.fa-images,i.fa-dollar-sign,i.fa-blog,i.fa-address-book{ 
     margin-right:3px;
     display:none;
 }
@@ -163,7 +156,7 @@ i.fa-twitter,i.fa-instagram-square,i.fa-behance,i.fa-facebook {
 
 i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:hover {
     transition: 0.5s;
-    color:#FFD700;
+    color:cyan;
     transform:translateY(-3px)
 }
 
@@ -173,8 +166,11 @@ i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:
 /* @media para el header (nav-menu)*/
 
 
-
 @media (max-width:800px) {
+    .header{
+        background:rgba(0, 0, 0, 0.603);
+    }
+
     .header .boton-container{
         display:block;
     }
@@ -183,32 +179,30 @@ i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:
         display:none;
     }
 
-    i.fa-house,i.fa-images,i.fa-dollar-sign,i.fa-blog{ 
+    i.fa-house,i.fa-images,i.fa-dollar-sign,i.fa-blog,i.fa-address-book{ 
         display:inline-block;
     }
 
     .nav-menu{
-        width:50%;
+        width:60%;
         position:fixed;
-        background-color: rgba(49, 49, 49, 0.9);
+        background-color: rgba(0, 0, 0, 0.904);
         display:flex;
         flex-direction:column;
-        top:60px;
+        top:70px;
         right:0;
-        overflow-y: hidden;
+        overflow-y:auto;
         text-align: center;
         padding:20px;
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-        transition:500ms all;
-        
-     
-        
+        transition:500ms all; 
     }
 
     .nav-menu-visible{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-        z-index:1;
+        border-radius: 0 0 20px 20px;
     }
+
 }
 
 
@@ -216,19 +210,60 @@ i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:
 
 /* Section1 1*/
 
+
 .section-1 h1{
     color:#fff;
-    margin:15px;
-    margin-top:60px;
     text-align: center;
+    width:70%;
     animation: centrar 3s;
-    
+    margin:auto;
+    margin-top:40px;   
+}
+
+.section-1 h1 .illustrator-color{
+    color:cyan;
+}
+
+.section-1 h1 .bold{
+    font-weight: bold;
+}
+
+
+
+
+.section-1 h2{
+    color:#fff;
+    text-align: center;
+    width:70%;
+    animation: centrar 3s;
+    margin:auto;
+    margin-top:40px;   
+}
+
+.section-1 h2 .illustrator-color{
+    color:cyan;
+}
+
+.section-1 h2 .bold{
+    font-weight: bold;
+}
+
+
+
+@media (max-width:800px) {
+    .section-1 h1{
+        width:90%;
+    }
+    .section-1 h2{
+        width:90%;
+    }
 }
 
 @keyframes centrar {
     0%{transform: translateX(100%);}
     100%{transform: translateX(0%);}
 }
+
 
 
 
