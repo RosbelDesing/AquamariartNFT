@@ -222,11 +222,12 @@ i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:
 
 .section-1-layer_dark{
     background-color: rgba(0, 0, 0, 0.692);
+    height: 100vh;
 }
 
 .section-1-container{
     padding-top:70px;
-    height: 100vh;
+    height: 90vh;
     display:flex;
     flex-direction:column;
     animation: centrar 3s;
