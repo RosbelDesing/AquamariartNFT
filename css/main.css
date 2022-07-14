@@ -334,14 +334,21 @@ i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:
 
 
 .section-2 .about-container .about-img{
-    width:300px;
-    height:300px;
+    width: 100%;
+    height:100%;
+    display:none;
 }
+
+.section-2 .about-container .about-img-mini{
+    width: 200px;
+    margin:20px;
+    float:left;
+}
+
+
 
 .section-2 .description-container{
     background-color: rgb(13, 13, 14);
-    width:100%;
-    height:300px;
     font-size:18px;
 }
 
@@ -358,8 +365,16 @@ i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:
 .section-2 .description-container .description-about{
     color:#fff;
     font-size:15px;
-    margin:25px 25px;
+    margin:20px 20px;
     text-align: justify;
+}
+
+.section-2 .description-container .description-sigilo{
+    display:none;
+    color:#fff;
+    font-size:15px;
+    text-align: justify;
+    transition:400ms all;
 }
 
 @media (max-width:800px) {
@@ -370,8 +385,73 @@ i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:
     .section-2 .description-container{
         height: 100%;
     }
+
+    .section-2 .about-container .about-img-mini{
+        display:none;
+    }
+
+    .section-2 .about-container .about-img{
+        display:block;
+    }
     
 }
+
+.section-2 .description-container .description-sigilo.sigilo-visible{
+    display:block;
+}
+
+.section-2 .btn-desplegar-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.section-2 .btn-desplegar{
+    padding:5px 20px;
+    border-radius:25px;
+    color:cyan;
+    font-size:15px;
+    background-color: #000;
+    border-color:cyan;
+    border-style:solid;
+    border-width:2px;
+    cursor:pointer;
+}
+
+.btn-desplegar-none{
+    display:none;
+}
+
+
+.btn-ocultar{
+    display:none;
+    padding:5px 20px;
+    border-radius:25px;
+    color:cyan;
+    font-size:15px;
+    background-color: #000;
+    border-color:cyan;
+    border-style:solid;
+    border-width:2px;
+    cursor:pointer;
+}
+
+.btn-ocultar-block{
+    display:block;
+}
+
+
+.section-2 .btn-desplegar:hover{
+    transition:500ms;
+    padding:5px 25px;
+}
+
+.section-2 .btn-ocultar:hover{
+    transition:500ms;
+    padding:5px 25px;
+}
+
 
 
 
