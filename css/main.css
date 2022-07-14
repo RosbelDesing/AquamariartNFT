@@ -17,7 +17,7 @@ html{
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-image: url(/fondo-noche.jpg);
+    background-image: url(/images/fondo-noche.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
