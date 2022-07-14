@@ -239,7 +239,7 @@ i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:
 
 .section-1 h1{
     color:#fff;
-    font-size:30px;
+    font-size:40px;
 }
 
 .section-1 h1 .illustrator-color{
@@ -274,6 +274,7 @@ i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:
     }
     .section-1 h1{
         width:90%;
+        font-size:25px;
 
     }
     .section-1 h2{
