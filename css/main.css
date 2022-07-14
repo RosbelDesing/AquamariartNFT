@@ -20,7 +20,7 @@ section{
 
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Comfortaa', cursive;
     background-color: #000;
 }
 
@@ -283,6 +283,7 @@ i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:
 }
 
 .section-1 .let-buttom{
+    font-family: 'Comfortaa', cursive;
     margin-top:25px;
     padding:5px 25px;
     border-radius:25px;
@@ -350,6 +351,8 @@ i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:
 .section-2 .description-container{
     background-color: rgb(13, 13, 14);
     font-size:18px;
+    line-height: 130%;
+    font-family: 'Comfortaa', cursive;
 }
 
 .section-2 .description-container .title-description{
@@ -408,6 +411,7 @@ i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:
 }
 
 .section-2 .btn-desplegar{
+    font-family: 'Comfortaa', cursive;
     padding:5px 20px;
     border-radius:25px;
     color:cyan;
@@ -426,6 +430,7 @@ i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:
 
 .btn-ocultar{
     display:none;
+    font-family: 'Comfortaa', cursive;
     padding:5px 20px;
     border-radius:25px;
     color:cyan;
