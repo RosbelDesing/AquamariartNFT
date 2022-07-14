@@ -14,17 +14,17 @@ html{
     scroll-behavior: smooth;
 }
 
+section{
+    scroll-margin-top: 70px;
+}
+
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-image: url(/images/fondo-noche.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 main{
-    padding-top:60px;
+    padding-top:0px;
 }
 
 
@@ -37,7 +37,7 @@ main{
     align-items: center;
     width:100%;
     padding:15px;
-    background: none;
+    background-color:#000;
 }
 
 .header .logo-container{
@@ -186,7 +186,7 @@ i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:
     .nav-menu{
         width:60%;
         position:fixed;
-        background-color: rgba(0, 0, 0, 0.904);
+        background-color: rgba(0, 0, 0, 1);
         display:flex;
         flex-direction:column;
         top:70px;
@@ -208,16 +208,34 @@ i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:
 
 /* Secciones del contenido principal*/
 
-/* Section1 1*/
+/* Section-1:Presentacion de la Web*/
+
+.section-1{
+    background-image: url(fondo-noche.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.section-1-layer_dark{
+    background-color: rgba(0, 0, 0, 0.692);
+}
+
+.section-1-container{
+    padding-top:70px;
+    height: 100vh;
+    display:flex;
+    flex-direction:column;
+    animation: centrar 3s;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 
 
 .section-1 h1{
     color:#fff;
-    text-align: center;
-    width:70%;
-    animation: centrar 3s;
-    margin:auto;
-    margin-top:40px;   
+    font-size:40px;
 }
 
 .section-1 h1 .illustrator-color{
@@ -229,15 +247,11 @@ i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:
 }
 
 
-
-
 .section-1 h2{
     color:#fff;
-    text-align: center;
-    width:70%;
-    animation: centrar 3s;
-    margin:auto;
-    margin-top:40px;   
+    margin-top:20px;
+    width:60%;
+    font-size:25px;
 }
 
 .section-1 h2 .illustrator-color{
@@ -251,12 +265,16 @@ i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:
 
 
 @media (max-width:800px) {
+    .section-1{
+        flex-direction:column;
+    }
     .section-1 h1{
         width:90%;
     }
     .section-1 h2{
         width:90%;
     }
+
 }
 
 @keyframes centrar {
@@ -264,7 +282,29 @@ i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:
     100%{transform: translateX(0%);}
 }
 
+.section-1 .let-buttom{
+    margin-top:25px;
+    padding:5px 25px;
+    border-radius:25px;
+    color:cyan;
+    font-size:15px;
+    background-color: #000;
+    border-color:cyan;
+    border-style:solid;
+    border-width:2px;
+    cursor:pointer;
+}
+
+.section-1 .let-buttom:hover{
+    transition:500ms;
+    padding:5px 35px;   
+}
+
+/* Section-2:Apartado About me*/
 
 
+.section-2{
+
+}
 
 
