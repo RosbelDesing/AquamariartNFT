@@ -211,7 +211,6 @@ i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:
 /* Section-1:Presentacion de la Web*/
 
 .section-1{
-    height: 100vh;
     background-image: url(fondo-noche.jpg);
     background-size:cover;
     background-repeat: no-repeat;
@@ -255,7 +254,7 @@ i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:
     color:#fff;
     margin-top:20px;
     width:60%;
-    font-size:25px;
+    font-size:20px;
 }
 
 .section-1 h2 .illustrator-color{
@@ -274,8 +273,6 @@ i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:
     }
     .section-1 h1{
         width:90%;
-        font-size:25px;
-
     }
     .section-1 h2{
         width:90%;
