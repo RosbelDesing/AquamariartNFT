@@ -668,21 +668,37 @@ i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:
         justify-content: center;
         align-items: center;
         color:#fff;
-        padding-top:30px;
+        margin-top:10px;
+        height: 75vh;
     }
 
+    
+
+
     .section-3 .off-title-1{
-        font-size:30px;
+        font-size:36px;
         line-height: 160%;
     }
     
     .section-3 .off-title-2{
-        font-size:20px;
+        font-size:30px;
         margin-top:20px;
     }
 
     .section-3 .subtitle-color{
         color:cyan;
+    }
+
+    .section-3 .eth {
+        font-size:100px;
+        margin-bottom:20px;
+        animation:color 2s alternate infinite;
+    }
+
+    @keyframes color {
+        0%{color:#fff}
+        50%{color:cyan}
+        100%{color:#fff}   
     }
    
     .section-3 .gallery-container{
@@ -723,5 +739,37 @@ i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:
     .section-3 .historia-text-sigilo-6.historia-text-visible-6{
         display:block;
     }
+
+
+    .section-3{
+        background-color:rgb(13, 13, 14);
+        padding: 2px;
+        padding-top:50px;
+    }
+
+    .section-3 .go{
+        margin:30px;
+        font-family: 'Comfortaa', cursive;
+        padding:5px 20px;
+        border-radius:25px;
+        color:cyan;
+        font-size:15px;
+        background-color: #000;
+        border-color:cyan;
+        border-style:solid;
+        border-width:2px;
+        cursor:pointer;
+    }
+
+    .section-3 .gallery-container-2 .bloque {
+        scroll-margin-top: 60px;
+    }
+
+    .section-3 .gallery-container-2 {
+        scroll-margin-top: 60px;
+    }
+
+    
+    
 }
 
