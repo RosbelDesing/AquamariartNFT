@@ -279,6 +279,7 @@ i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:
     .section-1 h2{
         width:90%;
     }
+    
 
 }
 
@@ -324,14 +325,14 @@ i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:
     font-size:35px;
     color:cyan;
     margin-right: 6px;
-    margin-top:20px;
+    margin-top:30px;
 
 }
 
 .section-2 .about-title-2{
     font-size:35px;
     color:#fff;
-    margin-top:20px;
+    margin-top:30px;
 }
 
 .section-2 .about-container{
@@ -370,9 +371,6 @@ i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:
     color:#fff;  
 }
 
-.section-2 .cyan{
-    color:cyan;
-}
 
 .section-2 .description-container .description-about{
     color:#fff;
@@ -415,7 +413,16 @@ i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:
     .section-2 .about-container .about-img{
         display:none;
     }
+
+    .section-2 .about-title-1{
+        margin-top:30px;
     
+    }
+    
+    .section-2 .about-title-2{
+        margin-top:30px;
+    }
+   
 }
 
 .section-2 .description-container .description-sigilo.sigilo-visible{
@@ -476,12 +483,245 @@ i.fa-twitter:hover,i.fa-instagram-square:hover,i.fa-behance:hover,i.fa-facebook:
     padding:5px 25px;
 }
 
-p{
+/* Section-3:Gallery*/
+
+.section-3{
+    background-color:rgb(13, 13, 14);
+    padding:40px;
+    padding-top:30px;
+}
+
+.section-3 .galeria-title-container{
+    text-align: center;
+    margin-bottom:20px;
+}
+
+.section-3 .galeria-title {
+    font-size:35px;
     color:#fff;
+    margin-top:25px;
+}
+
+.section-3 .galeria-title .title-color{
+    color:cyan; 
+}
+
+.section-3 .subtitle-container{
+    display:none;
+}
+
+.section-3 .baner{
+    width:700px;
+    border-color:#fff;
+    border-style:solid;
+    border-width:3px;
+}
+
+.section-3 .bloque{
+    box-shadow: 5px 5px 5px #000;
+}
+
+.section-3 .bloque-up{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top:60px;
 }
 
 
+.section-3 .nft-container .nft{
+    width:200px;
+    box-shadow: 4px 4px 4px #000;
+    float:left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.section-3 .historia-container{
+    color:#fff;
+    background-color:rgb(36, 35, 35);
+    padding:20px 20px;
+}
+
+.section-3 .card-title{
+    font-size:25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section-3 .color-title-card{
+    color:cyan;
+}
+
+.section-3 .historia-text{
+    margin-top:20px;
+    text-align: justify;
+    line-height: 130%;
+}
+
+.section-3 .btn-leer-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3 .btn-leer{
+    margin:30px;
+    font-family: 'Comfortaa', cursive;
+    padding:5px 20px;
+    border-radius:25px;
+    color:cyan;
+    font-size:15px;
+    background-color: #000;
+    border-color:cyan;
+    border-style:solid;
+    border-width:2px;
+    cursor:pointer;
+}
+
+.section-3 .btn-leer:hover{
+    transition:500ms;
+    padding:5px 30px;  
+}
+
+.section-3 .pie-container{
+    background-color: rgb(31, 32, 32);
+
+}
+.section-3 .pie-container .btn-link-marker{
+    margin:10px;
+    font-family: 'Comfortaa', cursive;
+    padding:5px 20px;
+    border-radius:25px;
+    color:cyan;
+    font-size:15px;
+    background-color: #000;
+    border-color:cyan;
+    border-style:solid;
+    border-width:2px;
+    cursor:pointer;
+}
+
+.section-3 .historia-text-sigilo{
+    text-align: justify;
+    margin-top:20px;
+    display:none;
+}
+
+.section-3 .historia-text-sigilo-2{
+    text-align: justify;
+    margin-top:20px;
+    display:none; 
+}
+
+.section-3 .historia-text-sigilo-3{
+    text-align: justify;
+    margin-top:20px;
+    display:none; 
+}
+
+.section-3 .historia-text-sigilo-2.historia-text-visible-2{
+    display:block;
+}
+
+.section-3 .historia-text-sigilo-3.historia-text-visible-3{
+    display:block;
+}
 
 
+.section-3 .historia-text-sigilo.historia-text-visible{
+    display:block;
+}
 
+.section-3 .gallery-container-2{
+    display:none;
+}
+
+@media (min-width:800px) {
+    .section-3 .bloque:hover{
+        transition:0.5s;
+        box-shadow: 5px 5px 5px #fff;
+        
+    }  
+}
+
+@media (max-width:800px) {
+    .section-3 .baner{
+        display:none;
+    }
+
+    .section-3 .nft-container{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0;
+    }
+   
+
+    .section-3 .nft-container .nft{
+        float:none;
+    }
+
+    .section-3 .subtitle-container{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        color:#fff;
+        padding-top:30px;
+    }
+
+    .section-3 .off-title-1{
+        font-size:30px;
+        line-height: 160%;
+    }
+    
+    .section-3 .off-title-2{
+        font-size:20px;
+        margin-top:20px;
+    }
+
+    .section-3 .subtitle-color{
+        color:cyan;
+    }
+   
+    .section-3 .gallery-container{
+        display:none;
+    }
+
+    .section-3 .gallery-container-2{
+        display:block;
+    }
+
+
+    .section-3 .historia-text-sigilo-4{
+        text-align: justify;
+        margin-top:20px;
+        display:none; 
+    }
+    
+    .section-3 .historia-text-sigilo-4.historia-text-visible-4{
+        display:block;
+    }
+
+    .section-3 .historia-text-sigilo-5{
+        text-align: justify;
+        margin-top:20px;
+        display:none; 
+    }
+    
+    .section-3 .historia-text-sigilo-5.historia-text-visible-5{
+        display:block;
+    }
+
+    .section-3 .historia-text-sigilo-6{
+        text-align: justify;
+        margin-top:20px;
+        display:none; 
+    }
+    
+    .section-3 .historia-text-sigilo-6.historia-text-visible-6{
+        display:block;
+    }
+}
 
